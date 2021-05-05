@@ -1,6 +1,6 @@
 CC=gcc
-DEPS=
-OBJ=main.o
+DEPS=average.h
+OBJ=main.o average.o
 CFLAGS=-std=c99
 
 %.o: %.c $(DEPS)
