@@ -1,0 +1,370 @@
+   42  python ./plot.py < data.txt
+   43  pwd
+   44  cd
+   45  pwd
+   46  git config --global user.name "Hayley"
+   47  git config --global user.email "hayley.agler@mail.utoronto.ca"
+   48  cd ~
+   49  mkdir -p repos/gauss2d.git
+   50  cd repos/gauss2d.git
+   51  git init --bare
+   52  pwd
+   53  vim
+   54  cosmo3
+   55  pwd
+   56  ls
+   57  cd cta200h
+   58  cd CTA200H
+   59  ls
+   60  cd lecture2
+   61  pwd
+   62  ls
+   63  cd cta200h
+   64  ls
+   65  cd cta200
+   66  ls
+   67  cd ..
+   68  rm assignment_1
+   69  rm -r assignment_1
+   70  ls
+   71  cd cta200
+   72  ls
+   73  rm LICENSE
+   74  ls
+   75  ls -la
+   76  emacs LICENSE~
+   77  rm LICENSE
+   78  rm LICENSE~
+   79  git commit -m "removing license and replacing it"
+   80  emacs LICENSE
+   81  ls
+   82  git add LICENSE
+   83  git commit -m "replaced license with new one"
+   84  ls
+   85  make
+   86  cd assignment_1
+   87  ls
+   88  make
+   89  cd ..
+   90  pwd
+   91  ls
+   92  rm Makefile
+   93  ls
+   94  cd assignment_1
+   95  make
+   96  cat Makefile
+   97  cat average.c
+   98  emacs Makefile
+   99  pwd
+  100  back
+  101  pwd
+  102  ls
+  103  cd cta200h
+  104  ls
+  105  ls -la
+  106  cd cta200
+  107  ls -la
+  108  echo "*.o" > .gitignore
+  109  ls
+  110  ls -la
+  111  cd assignment_1
+  112  make
+  113  cd ..
+  114  make
+  115  cd assignment_1
+  116  ls -la
+  117  make
+  118  head Makefile
+  119  gcc average.c
+  120  gcc -std=c99 average.c
+  121  make
+  122  make main
+  123  make average
+  124  make
+  125  pwd
+  126  ls -la
+  127  make
+  128  emacs Makefile
+  129  make
+  130  ls
+  131  emacs Makefile
+  132  cat average.h
+  133  make
+  134  ls -la
+  135  cat average.c
+  136  cat average.h
+  137  ./main.o
+  138  ./main.c
+  139  emacs Makefile
+  140  make
+  141  ls -la
+  142  ./main
+  143  git commit -m "got the makefile to work"
+  144  git add Makefile
+  145  git commit -m "got the makefile to work"
+  146  git branch -M main
+  147  git push -u origin main
+  148  emacs main.c
+  149  make
+  150  emacs Makefile
+  151  make
+  152  emacs Makefile
+  153  emacs main.c
+  154  main
+  155  make
+  156  ./main
+  157  emacs main.c
+  158  make
+  159  ./main
+  160  git add main.c
+  161  git commit -m "step 10: changed main.c to output the square of the average"
+  162  git branch -M main
+  163  git push -u origin main
+  164  history
+  165  history -n
+  166  cd /mnt/raid-project
+  167  cd student01
+  168  pwd
+  169  ls
+  170  git clone https://github.com/CITA/CTA200H.wiki.git
+  171  cd 
+  172  pwd
+  173  ls
+  174  cd cta200h
+  175  ls
+  176  cd CTA200H
+  177  ls
+  178  python
+  179  cd lecture2
+  180  python
+  181  pwd
+  182  module load gcc/4.9.2 python/2.7.10-rolling
+  183  module load gcc/4.9.2 python/2.7.10
+  184  jupyter otebook &
+  185  jupyter notebook &
+  186  kill %1
+  187  jupyter notebook &
+  188  cd
+  189  module load gcc/4.9.2 python/2.7.10 
+  190  jupyter notebook --no-browser
+  191  git config --global user.name "haylsagler1999"
+  192  git config --global user.email hayley.agler@mail.utoronto.ca
+  193  cd 
+  194  cd ~
+  195  ls
+  196  cd repos
+  197  ls
+  198  ls -la
+  199  pwd
+  200  back
+  201  pwd
+  202  ls
+  203  cta200h
+  204  cd cta200h
+  205  ls
+  206  cd CTA200H
+  207  ls
+  208  cd .
+  209  pwd
+  210  cd ..
+  211  git clone https://github.com/haylsagler1999/CTA200.git
+  212  ls
+  213  cd CTA200
+  214  ls
+  215  pwd
+  216  cd 
+  217  ssh-keygen
+  218  cd ~/.ssh
+  219  ls -la
+  220  more id_rsa.pub
+  221  pwd
+  222  cd ..
+  223  pwd
+  224  ls
+  225  cd cta200h
+  226  ls
+  227  ls -la
+  228  cd CTA300
+  229  cd CTA200
+  230  ls -la
+  231  vim README.md
+  232  emacs README.md
+  233  head README.md
+  234  pwd
+  235  back
+  236  pwd
+  237  cd cta200h
+  238  mkdir assignment_1
+  239  cd assignment_!
+  240  cd assignment_1
+  241  cd ..
+  242  pwd
+  243  ls -la
+  244  cd CTA200
+  245  ls -la
+  246  git commit -m "changed README"
+  247  git add README.md
+  248  git commit -m "changed README"
+  249  git push -u origin main
+  250  git remote add origin git@github.com:haylsagler1999/CTA200.git
+  251   git branch -M main
+  252  git push -u origin main
+  253  git remote add origin git@github.com:haylsagler1999/CTA200.git
+  254  git push -u origin main
+  255  git remote add origin https://github.com/haylsagler1999/CTA200.git
+  256   git branch -M main
+  257  git push -u origin main
+  258  pwd
+  259  cd ..
+  260  pwd
+  261  ls -la
+  262  rm CTA200
+  263  rm -d CTA200
+  264  rm -r CTA200
+  265  pwd
+  266  ls -la
+  267  cd CTA200
+  268  ls -la
+  269  rm LICENSE
+  270  rm .git
+  271  rm -d .git
+  272  rm -r .git
+  273  pwd
+  274  ls
+  275  ls -la
+  276  cd .
+  277  cd ..
+  278  ls
+  279  rm -r CTA200
+  280  ls -la
+  281  pwd
+  282  ls -la
+  283  echo "First assignment for CTA200H, 2021" > README.md
+  284  ls
+  285  rm README.md
+  286  mkdir cta200
+  287  cd cta200
+  288  echo "First assignment for CTA200H, 2021" > README.md
+  289  git init
+  290  git add README.md
+  291  git commit -m "adding README"
+  292  git branch -M main
+  293  git remote add origin git@github.com:haylsagler1999/cta200public.git
+  294  git push -u origin main
+  295  git remote -v
+  296  echo "MIT License
+  297  > 
+  298  > Copyright (c) 2021 Hayley Agler
+  299  > 
+  300  > Permission is hereby granted, free of charge, to any person obtaining a copy
+  301  > of this software and associated documentation files (the "Software"), to deal
+  302  > in the Software without restriction, including without limitation the rights
+  303  > to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  304  > copies of the Software, and to permit persons to whom the Software is
+  305  > furnished to do so, subject to the following conditions:
+  306  > 
+  307  > The above copyright notice and this permission notice shall be included in all
+  308  > copies or substantial portions of the Software.
+  309  > 
+  310  > THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  311  > IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  312  > FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  313  > AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  314  > LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  315  > OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  316  > SOFTWARE.
+  317  > " > LICENSE
+  318  pwd
+  319  ls
+  320  cat LICENSE
+  321  emacs LISENCE
+  322  emacs LICENSE
+  323  head LICENSE
+  324  emacs LICENSE
+  325  cat LICENSE
+  326  git add LICENSE
+  327  git commit -m "adding license"
+  328  pwd
+  329  mkdir assignment_1
+  330  cd assignment_1
+  331  cd ..
+  332  pwd
+  333  cd ..
+  334  ls
+  335  cd CTA200H
+  336  ls
+  337  cd assignment1_2021
+  338  ls
+  339  pwd
+  340  cp /home/student01/cta200h/CTA200H/assignment1_2021/average.c /home/student01/cta200h/cta200/assignment_1
+  341  cp /home/student01/cta200h/CTA200H/assignment1_2021/average.h /home/student01/cta200h/cta200/assignment_1
+  342  cp /home/student01/cta200h/CTA200H/assignment1_2021/main.c /home/student01/cta200h/cta200/assignment_1
+  343  cd ..
+  344  pwd
+  345  cd ..
+  346  cd cta200
+  347  ls
+  348  cd assignment_1
+  349  ls
+  350  cd ..
+  351  head license
+  352  head LICENSE
+  353  head LICENSE~
+  354  CAT LICENSE
+  355  cat LICENSE
+  356  cat LISENCE~
+  357  ls
+  358  ls -la
+  359  pwd
+  360  emacs Makefile
+  361  make
+  362  pwd
+  363  ls
+  364  cp ~/Makefile ~/assignment_1
+  365  cp ~/cta200h/cta200/Makefile ~/assignment_1
+  366  cd assignment_1
+  367  ls
+  368  cp ~/cta200h/cta200/Makefile ~/cta200h/cta200/assignment_1
+  369  pwd
+  370  ls
+  371  make
+  372  pwd
+  373  git commit -m "added makefile"
+  374  git add Makefile
+  375  git branch -M main
+  376  git push -u origin main
+  377  git add Makefile
+  378  git commit -m "added makefile"
+  379  git branch -M main
+  380  git push -u origin main
+  381  git add average.c
+  382  git add average.h
+  383  git add main.c
+  384  git commit -m "added .c and .h files"
+  385  git branch -M main
+  386  git push -u origin main
+  387  make
+  388  cat Makefile
+  389  CC=gcc
+  390  DEPS=
+  391  OBJ=main.o
+  392  CFLAGS=-std=c99
+  393  %.o: %.c $(DEPS)
+  394  $(CC) $(CFLAGS) -c -o $@ $<
+  395  main: $(OBJ)
+  396  $(CC) -o $@ $^ $(CFLAGS)
+  397  make
+  398  pwd
+  399  history | -n
+  400  history | 10
+  401  tail -n history
+  402  tail -n | history
+  403  history | tail -n 397 > history.txt
+  404  cat history.txt
+  405  history | tail -n 370 > history.txt
+  406  cat history.txt
+  407  history | tail -n 380 > history.txt
+  408  cat history.txt
+  409  history | tail -n 360 > history.txt
+  410  cat history.txt
+  411  history | tail -n 370 > history.txt
